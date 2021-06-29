@@ -1,0 +1,59 @@
+*{margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+body{font-family: 'Oswald', sans-serif;}
+.container{max-width: 1000px;background: darksalmon;margin: 0 auto;
+padding: 30px;list-style: inside;
+}
+.profile{float: left;height:100px ;width:90px ;border: 2px solid yellow;border-radius: 50px;
+   
+}
+.hedder-bio{float: left; padding:30px;
+
+}
+h1,h3 ,h5{color:rgb(38, 248, 30) ;}
+
+h2,h4,h6{color:rgb(211, 247, 13)
+
+}
+.heder-link{float:right;padding: 30px;
+list-style:;
+}
+.heder-link .edu a, a{ text-decoration: none;color:rgb(211, 247, 13) ;
+font-weight: 600;
+}
+.heder-link .edu a, a:hover{text-decoration: underline;color: rgb(38, 248, 30); }
+.div-clear{clear: both;}
+hr{border:5px solid rgb(158, 157, 155);width:100%;margin:15px auto;
+border-bottom:none;
+}
+
+/*personal section*/
+
+#personal-section{ 
+
+}
+.content{font-weight: 500;color: rgb(211, 247, 13);
+
+}
+.left-div{width: 30%;float: left;
+
+}
+.right-div{width: 70%;float:left;
+
+}
+.exp h3,h5{margin-bottom: 10px;}
+.none{margin-top: 10px;}
+
+.skil .skil-l, h3, li{margin-bottom: 10px;}
+.skil{margin-bottom: 30px;}
+
+#education .right-div .edu {width:50%;float: left;}
+.edu p{margin-bottom: 5px;}
+.reference{width: 50%;float:left }
+.reference p{margin-bottom:5px;}
+.footer{ background: rgb(27, 26, 26);color: floralwhite;
+text-align: center;padding: 20px;
+}
+.footer a{margin: 30px;
+}
+.footer p{margin-top: 10px;}
